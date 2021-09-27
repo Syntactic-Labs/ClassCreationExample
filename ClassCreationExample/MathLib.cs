@@ -12,10 +12,6 @@ namespace ClassCreationExample
         {                                 //incramentaion of an instance
             return ++a;
         }
-        
-        
-        
-        
         public int Sub(int a, int b)
         {
             return a - b;

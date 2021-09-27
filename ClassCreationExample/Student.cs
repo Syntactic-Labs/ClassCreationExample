@@ -26,7 +26,6 @@ namespace ClassCreationExample
             }
             
         }
-
         public void Print(int code)
         {
             Console.WriteLine($"Code:{code} Name:{this.Name} | sat:{this.SAT}");

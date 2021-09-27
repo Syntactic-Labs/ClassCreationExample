@@ -18,7 +18,7 @@ namespace ClassCreationExample {
             barney.Print(3);
             barney.SAT += 20;
             barney.Print(4);
-
+ //----------------------------------------------------------------------------------------------------------------------------------------------------------------------
             var a = 1;
             var b = 6;
             var mathlib = new MathLib();                //Goes with MathLib Class that was created
