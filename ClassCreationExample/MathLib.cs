@@ -7,9 +7,12 @@ using System.Threading.Tasks;
 namespace ClassCreationExample
 {
     class MathLib
-    {
+    {   //Constructor... This is auto made for us. An unseen default if this was not made... (option)
+        //When first Constuctor is made (probably one that had paras) make an empty Constuctor to avoid errors
+        public MathLib(){}  
+
         public int Inc(int a)
-        {                                 //incramentaion of an instance
+        {                                 
             return ++a;
         }
         public int Sub(int a, int b)
